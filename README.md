@@ -32,7 +32,9 @@ In "Edit Scheme," uncheck "Metal Validation."
 #### Known issues
 
 Something's wrong with react-native build-ios configuration, as it fails to autoinstall Pods. Workaround for now is
-to disable automaticPodsInstallation in react-native.config.js and run `yarn pod:install:ios` manually.
+to disable automaticPodsInstallation in react-native.config.js and run `yarn pod:install:ios` manually
+
+Keep @react-native-community/cli at v15 due to https://github.com/facebook/metro/issues/1453#issuecomment-2703569391
 
 ### Downloading Dawn
 

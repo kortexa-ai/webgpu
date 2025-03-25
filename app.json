@@ -29,15 +29,14 @@
   },
   "ios": {
     "metalAPIValidation": false,
-    "bundleIdentifier": "ai.kortexa.webgpu",
-    "displayName": "WebGPU"
+    "bundleIdentifier": "ai.kortexa.webgpu"
   },
   "macos": {
     "metalAPIValidation": false,
-    "bundleIdentifier": "ai.kortexa.webgpu",
-    "displayName": "WebGPU"
+    "bundleIdentifier": "ai.kortexa.webgpu"
   },
   "visionos": {
-    "metalAPIValidation": false
+    "metalAPIValidation": false,
+    "bundleIdentifier": "ai.kortexa.webgpu"
   }
 }
