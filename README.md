@@ -15,6 +15,12 @@ Steps to run the app:
 yarn install
 yarn pod:install:ios
 yarn build:ios
+xed ios
+```
+
+Select your development team in Xcode.
+
+```bash
 yarn ios
 ```
 
