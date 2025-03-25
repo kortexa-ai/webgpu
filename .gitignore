@@ -81,6 +81,7 @@ artifacts/
 .xcode.env
 **/Pods/**
 build/
+!scripts/build/
 dist/*
 !dist/.gitignore
 local.properties

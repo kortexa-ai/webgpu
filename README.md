@@ -9,6 +9,17 @@ To run the webgpu app you first need to [build Dawn or download the prebuilt bin
 
 From there you will be able to run the example app properly.
 
+Steps to run the app:
+
+```bash
+yarn install
+yarn download-artifacts
+yarn copy-artifacts
+yarn pod:install:ios
+yarn build:ios
+yarn ios
+```
+
 ## Troubleshooting
 
 ### iOS
@@ -23,10 +34,10 @@ In "Edit Scheme," uncheck "Metal Validation."
 Download the prebuilt binaries from GitHub.
 You need to have the [Github CLI](https://cli.github.com/) installed:
 
-```sh
-$ yarn
-$ yarn download-artifacts
-$ yarn copy-artifacts
+```bash
+yarn
+yarn download-artifacts
+yarn copy-artifacts
 ```
 
 Alternatively you can also download the prebuilt binaries [here](https://github.com/wcandillon/react-native-webgpu/actions/workflows/build-dawn.yml).
