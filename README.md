@@ -13,8 +13,6 @@ Steps to run the app:
 
 ```bash
 yarn install
-yarn mkdist
-yarn download-artifacts
 yarn pod:install:ios
 yarn build:ios
 yarn ios
