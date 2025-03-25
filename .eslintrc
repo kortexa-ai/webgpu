@@ -1,0 +1,14 @@
+{ 
+  "extends": "react-native-wcandillon",
+  "ignorePatterns": ["**/*/components/meshes", "**/Pods/**"],
+  "rules": {
+    "no-bitwise": "off",
+    "@typescript-eslint/no-require-imports": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "all"
+      }
+    ]
+  }
+} 
