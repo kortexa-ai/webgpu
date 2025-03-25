@@ -6,7 +6,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Example"
+rootProject.name = "webgpu"
 
 apply(from: {
     def searchDir = rootDir.toPath()

@@ -3,9 +3,9 @@
 Sample app that shows how to use React Native implementation of WebGPU using [Dawn](https://dawn.googlesource.com/dawn).
 This sample is based on @wcandillon's [example app](https://github.com/wcandillon/react-native-webgpu/tree/main/apps/example).
 
-## Example App
+## Webgpu App
 
-To run the example app you first need to [build Dawn or download the prebuilt binaries](#building-dawn).
+To run the webgpu app you first need to [build Dawn or download the prebuilt binaries](#building-dawn).
 
 From there you will be able to run the example app properly.
 

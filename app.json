@@ -1,12 +1,12 @@
 {
-  "name": "Example",
-  "displayName": "Example",
-  "singleApp": "example-app",
+  "name": "webgpu",
+  "displayName": "webgpu",
+  "singleApp": "webgpu-app",
   "components": [
     {
-      "appKey": "Example",
-      "displayName": "Example",
-      "slug": "example-app"
+      "appKey": "webgpu",
+      "displayName": "webgpu",
+      "slug": "webgpu-app"
     }
   ],
   "resources": {

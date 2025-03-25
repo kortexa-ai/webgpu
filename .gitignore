@@ -62,11 +62,12 @@ package/lib
 
 # Externals
 artifacts/
-__artifacts/
+/cpp/
+/libs/
 
 # Cocoapods
 #
-apps/example/**/Pods
+**/Pods
 
 # Misc
 *.binlog
