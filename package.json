@@ -61,7 +61,6 @@
         "@webgpu/types": "^0.1.59",
         "babel-jest": "^29.6.3",
         "eslint": "^8.19.0",
-        "eslint-config-react-native-wcandillon": "^3.10.2",
         "jest": "^29.6.3",
         "prettier": "2.8.8",
         "react-native-test-app": "^4.1.0",

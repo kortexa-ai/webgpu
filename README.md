@@ -13,6 +13,7 @@ Steps to run the app:
 
 ```bash
 yarn install
+yarn mkdist
 yarn download-artifacts
 yarn pod:install:ios
 yarn build:ios
@@ -27,6 +28,11 @@ To run the React Native WebGPU project on the iOS simulator, you need to disable
 In "Edit Scheme," uncheck "Metal Validation."
 
 <img width="1052" alt="Uncheck 'Metal Validation'" src="https://github.com/user-attachments/assets/2676e5cc-e351-4a97-bdc8-22cbd7df2ef2">
+
+#### Known issues
+
+Something's wrong with react-native build-ios configuration, as it fails to autoinstall Pods. Workaround for now is
+to disable automaticPodsInstallation in react-native.config.js and run `yarn pod:install:ios` manually.
 
 ### Downloading Dawn
 

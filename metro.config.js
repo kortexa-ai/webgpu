@@ -1,7 +1,7 @@
 const { makeMetroConfig } = require("@rnx-kit/metro-config");
 const path = require('path');
 
-const root = path.resolve(__dirname, '../..');
+const root = path.resolve(__dirname, './');
 const threePackagePath = path.resolve(root, 'node_modules/three');
 
 const extraConfig = {
@@ -17,13 +17,13 @@ const extraConfig = {
           type: 'sourceFile',
         };
       }
-      if (moduleName === 'three' || moduleName === 'three/webgpu') { 
+      if (moduleName === 'three' || moduleName === 'three/webgpu') {
         return {
           filePath: path.resolve(threePackagePath, 'build/three.webgpu.js'),
           type: 'sourceFile',
         };
       }
-      if (moduleName === 'three/tsl') { 
+      if (moduleName === 'three/tsl') {
         return {
           filePath: path.resolve(threePackagePath, 'build/three.tsl.js'),
           type: 'sourceFile',
