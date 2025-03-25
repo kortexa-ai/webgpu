@@ -5,17 +5,14 @@
     "scripts": {
         "lint": "eslint . --ext .ts,.tsx  --max-warnings 0 --cache --fix",
         "tsc": "tsc --noEmit",
+        "start": "react-native start",
         "android": "react-native run-android",
         "ios": "react-native run-ios",
-        "start": "react-native start",
         "pod:install:ios": "pod install --project-directory=ios",
         "pod:install:macos": "pod install --project-directory=macos",
         "build:android": "cd android && ./gradlew assembleDebug --warning-mode all",
         "build:ios": "react-native build-ios --scheme webgpu --mode Debug --extra-params \"-sdk iphonesimulator CC=clang CPLUSPLUS=clang++ LD=clang LDPLUSPLUS=clang++ GCC_OPTIMIZATION_LEVEL=0 GCC_PRECOMPILE_PREFIX_HEADER=YES ASSETCATALOG_COMPILER_OPTIMIZATION=time DEBUG_INFORMATION_FORMAT=dwarf COMPILER_INDEX_STORE_ENABLE=NO\"",
-        "build:macos": "react-native build-macos --scheme webgpu --mode Debug",
-        "mkdist": "node -e \"require('node:fs').mkdirSync('dist', { recursive: true, mode: 0o755 })\"",
-        "download-artifacts": "ts-node scripts/build/download-artifacts.ts && yarn copy-artifacts",
-        "copy-artifacts": "ts-node scripts/build/copy-artifacts.ts"
+        "build:macos": "react-native build-macos --scheme webgpu --mode Debug"
     },
     "resolutions": {
         "@types/react": "^18.2.44",
@@ -64,7 +61,6 @@
         "prettier": "2.8.8",
         "react-native-test-app": "^4.1.0",
         "react-test-renderer": "18.2.0",
-        "ts-node": "^10.9.2",
         "typescript": "5.0.4"
     },
     "engines": {
