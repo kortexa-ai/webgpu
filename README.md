@@ -14,7 +14,6 @@ Steps to run the app:
 ```bash
 yarn install
 yarn download-artifacts
-yarn copy-artifacts
 yarn pod:install:ios
 yarn build:ios
 yarn ios
