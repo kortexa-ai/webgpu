@@ -44,8 +44,8 @@ const Scene = () => {
 export default function App() {
   const [OrbitControls, events] = useControls();
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <GestureHandlerRootView style={{ flex: 1 }}>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaView style={{ flex: 1 }}>
         <Text style={{ color: 'green' }}>Do you see the rotating blue box?</Text>
         <View style={{ flex: 1 }} {...events}>
           <FiberCanvas style={{ flex: 1 }}>
@@ -53,7 +53,7 @@ export default function App() {
             <Scene />
           </FiberCanvas>
         </View>
-      </GestureHandlerRootView>
-    </SafeAreaView>
+      </SafeAreaView>
+    </GestureHandlerRootView>
   );
 }
